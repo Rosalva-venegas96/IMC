@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Indice de Masa Coporal (IMC)</string>
+    <string name="texto_indicador_peso">Proporcione el peso en kilogramos</string>
+    <string name="texto_indicador_estatura">Proporcione la estatura en metros</string>
+    <string name="texto_boton_calcular">Calcular</string>
+    <string name="texto_boton_limpiar">Limpiar</string>
+    <string name="texto_mensaje_imc">El indice de masa corporal es: </string>
+    <string name="texto_mensaje_clasificacion">Clasificación</string>
+
+</resources>

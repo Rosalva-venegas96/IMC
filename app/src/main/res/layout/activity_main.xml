@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+android:orientation="vertical"
+tools:context="com.example.rosalva_venegas_mejia.imc.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:text="@string/texto_indicador_peso" />
+
+<EditText
+    android:id="@+id/edit_text_peso"
+    android:inputType="numberDecimal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text=""/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:text="@string/texto_indicador_estatura"
+    />
+
+<EditText
+    android:id="@+id/edit_text_estatura"
+    android:inputType="numberDecimal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text=""/>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    >
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/texto_boton_calcular"
+        />
+    <Button
+        android:id="@+id/button_limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/texto_boton_limpiar"
+        />
+
+</LinearLayout>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:textSize="16dp"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/texto_mensaje_imc"
+    />
+<TextView
+    android:id="@+id/text_view_imc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:paddingBottom="16dp"
+    android:textColor="#000000"
+    android:layout_gravity="center_horizontal"
+    android:text=""
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:textSize="16dp"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/texto_mensaje_clasificacion"
+    />
+<TextView
+    android:id="@+id/text_view_classification"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textColor="#ff0000"
+    android:layout_gravity="center_horizontal"
+    android:text=""
+    />
+</LinearLayout>
